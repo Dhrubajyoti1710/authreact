@@ -1,0 +1,42 @@
+/* Custom Ag-Grid Theme */
+
+
+
+.ag-theme-custom {
+    --ag-background-color: #f8f9fa;
+    --ag-border-color: #dee2e6;
+    --ag-header-background-color: #343a40;
+    --ag-header-foreground-color: #ffffff;
+    --ag-odd-row-background-color: #ffffff;
+    --ag-even-row-background-color: #f8f9fa;
+    --ag-row-hover-color: #e9ecef;
+    --ag-selected-row-background-color: #007bff;
+    --ag-cell-horizontal-border: 1px solid #dee2e6;
+    --ag-cell-horizontal-padding: 10px;
+    --ag-font-size: 14px;
+    --ag-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Additional Styling */
+  .ag-theme-custom .ag-header-cell {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .ag-theme-custom .ag-cell {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ag-theme-custom .ag-row {
+    border-bottom: 1px solid var(--ag-border-color);
+  }
+  
+  .ag-theme-custom .ag-row:hover {
+    background-color: var(--ag-row-hover-color);
+  }
+  
+  .ag-theme-custom .ag-row-selected {
+    background-color: var(--ag-selected-row-background-color);
+    color: white;
+  }
